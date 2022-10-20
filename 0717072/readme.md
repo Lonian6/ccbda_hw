@@ -4,9 +4,11 @@ Modify the train data path in `line 183`
 Data augmentation transform can be modified in `line 213`
 
 first time training
+
     python train.py
 
 Continue training
+    
     python train.py epoch_number
 
 ## Testing
