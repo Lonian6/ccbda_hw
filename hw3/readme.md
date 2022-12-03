@@ -8,10 +8,10 @@
     │   ├── 00001.png
     │   ├...
     │   └── 60000.png
-    ├── mnist.npz
     ├── 0717072
          ├── Readme.md
          ├── requirements.txt
+         ├── mnist.npz
          └── ddpm.py
     ```
 
@@ -46,7 +46,7 @@ pip install torch torchvision pytorch_gan_metrics
 ```
 Conducting in 0717072 folder, run the code and get the score 
 ```
-!python -m pytorch_gan_metrics.calc_metrics \
+python -m pytorch_gan_metrics.calc_metrics \
 --path ./plots \
 --stats ../mnist.npz
 ```
