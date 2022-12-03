@@ -8,7 +8,7 @@
     │   ├── 00001.png
     │   ├...
     │   └── 60000.png
-    ├── 0717072
+    ├── hw3
          ├── Readme.md
          ├── requirements.txt
          ├── mnist.npz
@@ -44,7 +44,7 @@ Install the counting toolkit first
 pip install pytorch_gan_metrics
 pip install torch torchvision pytorch_gan_metrics
 ```
-Conducting in 0717072 folder, run the code and get the score 
+Conducting in hw3 folder, run the code and get the score 
 ```
 python -m pytorch_gan_metrics.calc_metrics \
 --path ./plots \
